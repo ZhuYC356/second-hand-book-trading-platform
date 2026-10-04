@@ -1,0 +1,26 @@
+/* ================= 主题变量（uni-app 自动注入每个页面的 scss） ================= */
+
+/* 主色 */
+$primary: #4f46e5;
+$primary-2: #7c3aed;
+$primary-grad: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+
+/* 功能色 */
+$price: #ff5b2e;
+$success: #10b981;
+$warning: #f59e0b;
+$danger: #ef4444;
+
+/* 文本 */
+$text-1: #1f2937;
+$text-2: #6b7280;
+$text-3: #9ca3af;
+
+/* 背景 & 线 */
+$bg: #f6f7fb;
+$line: #f0f1f5;
+
+/* 圆角 */
+$radius-sm: 12rpx;
+$radius: 20rpx;
+$radius-lg: 28rpx;

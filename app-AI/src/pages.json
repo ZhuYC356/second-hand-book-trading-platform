@@ -1,0 +1,94 @@
+{
+  "pages": [
+    {
+      "path": "pages/home/home",
+      "style": {
+        "navigationStyle": "custom",
+        "enablePullDownRefresh": true,
+        "onReachBottomDistance": 100,
+        "backgroundColor": "#4f46e5"
+      }
+    },
+    {
+      "path": "pages/detail/detail",
+      "style": {
+        "navigationStyle": "custom",
+        "backgroundColor": "#f6f7fb"
+      }
+    },
+    {
+      "path": "pages/publish/publish",
+      "style": {
+        "navigationStyle": "custom",
+        "enablePullDownRefresh": true,
+        "backgroundColor": "#4f46e5"
+      }
+    },
+    {
+      "path": "pages/edit/edit",
+      "style": {
+        "navigationBarTitleText": "发布图书",
+        "navigationBarBackgroundColor": "#4f46e5",
+        "navigationBarTextStyle": "white"
+      }
+    },
+    {
+      "path": "pages/orders/orders",
+      "style": {
+        "navigationStyle": "custom",
+        "enablePullDownRefresh": true,
+        "backgroundColor": "#4f46e5"
+      }
+    },
+    {
+      "path": "pages/profile/profile",
+      "style": {
+        "navigationStyle": "custom",
+        "backgroundColor": "#4f46e5"
+      }
+    },
+    {
+      "path": "pages/login/login",
+      "style": {
+        "navigationStyle": "custom",
+        "backgroundColor": "#4f46e5"
+      }
+    }
+  ],
+  "easycom": {
+    "autoscan": true,
+    "custom": {
+      "^wd-(.*)": "wot-design-uni/components/wd-$1/wd-$1.vue"
+    }
+  },
+  "globalStyle": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "书遇 · 二手书交易平台",
+    "navigationBarBackgroundColor": "#4f46e5",
+    "backgroundColor": "#f6f7fb"
+  },
+  "tabBar": {
+    "color": "#9ca3af",
+    "selectedColor": "#4f46e5",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/publish/publish",
+        "text": "发布"
+      },
+      {
+        "pagePath": "pages/orders/orders",
+        "text": "订单"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "我的"
+      }
+    ]
+  }
+}
